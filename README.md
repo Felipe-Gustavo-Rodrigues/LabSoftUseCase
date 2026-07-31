@@ -4,6 +4,7 @@ Bem-vindo ao laboratório prático!
 
 Neste exercício, você atuará como desenvolvedor em uma **Software House**. O objetivo é simular o dia a dia de um time de desenvolvimento utilizando o **GitHub Desktop** para trabalhar com **branches**, resolver **conflitos de merge** e aplicar **hotfixes** de bugs em um projeto **.NET 8.0**.
 
+![Fluxo de trabalho e resolução de conflitos - GitFlow](./imagens/giflow_geral.png)
 ---
 
 ## 🎯 Objetivos de Aprendizagem
