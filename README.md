@@ -421,6 +421,98 @@ Abaixo está a tabela de equivalência com os principais comandos do Git e suas 
 | `git branch -d <nome-da-branch>` | Exclui uma branch local que já teve suas alterações mescladas. |
 | `git log --graph --oneline` | Exibe o histórico de commits formatado de maneira simplificada e visual no terminal. |
 
+
+---
+
+## 💼 Você na Entrevista de Emprego
+
+Simule uma entrevista técnica de desenvolvimento! Abaixo estão 5 questões baseadas nos comandos listados na **Revisão Dev**. Teste seus conhecimentos em cenários reais do mercado de trabalho:
+
+---
+
+### ❓ Questão 1: Sincronização com o Repositório Remoto
+**Cenário:** Você acabou de finalizar o desenvolvimento de uma nova funcionalidade na sua máquina local (`feature/login`) e realizou todos os commits necessários. Seu líder técnico pediu para que você envie suas alterações para o repositório da empresa no GitHub para que a equipe possa revisar seu código. 
+
+Qual comando do Git você deve utilizar para enviar suas alterações locais para a nuvem?
+
+- [ ] A) `git checkout origin feature/login`
+- [ ] B) `git push origin feature/login`
+- [ ] C) `git pull origin feature/login`
+- [ ] D) `git merge origin feature/login`
+- [ ] E) `git commit -m "pushing to origin"`
+
+---
+
+### ❓ Questão 2: Troca e Criação de Branches
+**Cenário:** Você está trabalhando na branch `develop` e o Product Owner te atribuiu uma tarefa de alta prioridade. Para não sujar o código principal, você precisa criar uma nova branch chamada `feature/validacao-cpf` e **mudar para ela imediatamente** para começar a codificar. 
+
+Qual é o comando mais direto e eficiente para realizar essa ação em um único passo?
+
+- [ ] A) `git branch feature/validacao-cpf`
+- [ ] B) `git checkout -b feature/validacao-cpf`
+- [ ] C) `git switch --create-only feature/validacao-cpf`
+- [ ] D) `git merge feature/validacao-cpf`
+- [ ] E) `git add -b feature/validacao-cpf`
+
+---
+
+### ❓ Questão 3: Preparando o Commit (Staging Area)
+**Cenário:** Durante a manhã, você alterou três arquivos no seu projeto .NET (`Program.cs`, `Tarefa.cs` e `TarefaRepository.cs`). Antes de criar a "foto" (commit) dessas alterações no histórico do Git, você precisa mover todos esses arquivos modificados para a área de preparação (*Staging Area*). 
+
+Qual comando você deve executar no terminal?
+
+- [ ] A) `git status --all`
+- [ ] B) `git save .`
+- [ ] C) `git add .`
+- [ ] D) `git commit -a "adicionando arquivos"`
+- [ ] E) `git push --stage`
+
+---
+
+### ❓ Questão 4: Integração de Código e Conflitos
+**Cenário:** Você terminou a correção de um bug na branch `hotfix/formatoData`. Agora, estando posicionado na branch de desenvolvimento principal (`LabSofUseCase00-RevisaoGitHub`), você precisa **trazer e juntar** o código corrigido da branch de hotfix para a branch atual. 
+
+Qual comando realiza a fusão dessas duas branches?
+
+- [ ] A) `git merge hotfix/formatoData`
+- [ ] B) `git pull hotfix/formatoData`
+- [ ] C) `git checkout hotfix/formatoData`
+- [ ] D) `git clone hotfix/formatoData`
+- [ ] E) `git connect hotfix/formatoData`
+
+---
+
+### ❓ Questão 5: Atualizando o Projeto Local
+**Cenário:** Você chegou para trabalhar na segunda-feira de manhã. Enquanto você estava de folga no fim de semana, outros desenvolvedores do seu time enviaram várias atualizações para o GitHub na branch principal. Antes de começar a escrever código novo, você precisa **baixar e mesclar** as últimas alterações da nuvem para a sua máquina local.
+
+Qual comando garante que seu código local receba essas atualizações da nuvem?
+
+- [ ] A) `git status`
+- [ ] B) `git push`
+- [ ] C) `git commit -m "atualizar"`
+- [ ] D) `git pull`
+- [ ] E) `git checkout -f`
+
+---
+
+<details>
+<summary><b>🔍 Clique aqui para ver o Gabarito com as Respostas Comentadas</b></summary>
+
+<br>
+
+1. **Resposta Correta: B (`git push origin feature/login`)**
+   * *Justificativa:* O comando `git push` envia (*push*) os commits locais para o servidor remoto (`origin`).
+2. **Resposta Correta: B (`git checkout -b feature/validacao-cpf`)**
+   * *Justificativa:* A flag `-b` indica ao Git para criar a nova branch e fazer o checkout (alternar) para ela imediatamente.
+3. **Resposta Correta: C (`git add .`)**
+   * *Justificativa:* O `git add .` inclui todas as modificações do diretório atual na Staging Area, preparando-as para o commit.
+4. **Resposta Correta: A (`git merge hotfix/formatoData`)**
+   * *Justificativa:* O `git merge <branch>` pega o histórico da branch informada e o unifica com a branch em que você está atualmente.
+5. **Resposta Correta: D (`git pull`)**
+   * *Justificativa:* O comando `git pull` realiza a busca (*fetch*) e a integração (*merge*) das alterações do repositório remoto diretamente para a sua branch local.
+
+</details>
+
 ---
 
 ## 🎉 Parabéns!
