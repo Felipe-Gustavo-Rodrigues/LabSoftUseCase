@@ -27,6 +27,8 @@ Neste exercício, você atuará como desenvolvedor em uma **Software House**. O 
 
 ## 🚀 Etapa 0: Fork, Clone e Projeto Inicial (.NET 8)
 
+![Fluxo de trabalho e resolução de conflitos - GitFlow](./imagens/gitflow_fork.png)
+
 ### Step 0.1: Criar o Fork do Repositório
 1. Acesse o repositório do projeto no **GitHub** pelo seu navegador.
 2. No canto superior direito da página, clique no botão **Fork**.
