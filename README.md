@@ -401,6 +401,28 @@ class Program
 
 ---
 
+## 🛠️ Revisão Dev: Linha de Comando (CLI)
+
+Embora tenhamos utilizado o **GitHub Desktop** para realizar todas as operações de forma visual durante a prática, no dia a dia é muito comum utilizar o **Git via terminal/linha de comando**. 
+
+Abaixo está a tabela de equivalência com os principais comandos do Git e suas respectivas explicações:
+
+| Comando Git CLI | O que ele faz / Explicação |
+| :--- | :--- |
+| `git clone <URL>` | Clona um repositório remoto (do GitHub) para a sua máquina local. |
+| `git checkout -b <nome-da-branch>` | Cria uma nova branch e já alterna imediatamente para ela. |
+| `git checkout <nome-da-branch>` | Alterna entre branches existentes no projeto. |
+| `git status` | Exibe o estado atual da working directory e os arquivos modificados/não commitados. |
+| `git add .` | Adiciona todas as alterações feitas na pasta atual para a área de preparação (*Stage*). |
+| `git commit -m "mensagem"` | Grava as alterações que estavam no *Stage* no histórico local com uma mensagem descritiva. |
+| `git merge <nome-da-branch>` | Mescla as alterações da branch especificada na branch em que você está atualmente. |
+| `git push origin <nome-da-branch>` | Envia os commits da sua branch local para o repositório remoto no GitHub. |
+| `git pull` | Baixa e aplica as atualizações do repositório remoto na sua branch local atual. |
+| `git branch -d <nome-da-branch>` | Exclui uma branch local que já teve suas alterações mescladas. |
+| `git log --graph --oneline` | Exibe o histórico de commits formatado de maneira simplificada e visual no terminal. |
+
+---
+
 ## 🎉 Parabéns!
 
 Você concluiu a prática laboratorial utilizando **GitHub Desktop**! Agora você sabe como trabalhar com forks, gerenciar branches visivelmente, solucionar conflitos de merge e aplicar hotfixes em projetos .NET 8.
