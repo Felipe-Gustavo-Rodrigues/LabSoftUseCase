@@ -215,6 +215,10 @@ class Program
 
 **Cenário:** Vamos simular dois desenvolvedores alterando a mesma linha do título no arquivo `Program.cs` ao mesmo tempo. Isso vai gerar um **conflito de merge**, que você aprenderá a resolver facilmente!
 
+<p align="center">
+  <img src="./imagens/git_conflito.png" alt="Fluxo de trabalho e resolução de conflitos" width="80%">
+</p>
+
 ---
 
 ### 🟢 Parte A: RN2A - Adicionar Versão no Título
