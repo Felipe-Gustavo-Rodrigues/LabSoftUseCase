@@ -30,7 +30,7 @@ Neste exercício, você atuará como desenvolvedor em uma **Software House**. O 
 <!-- ![Fluxo de trabalho e resolução de conflitos - GitFlow](./imagens/gitflow_fork.png) -->
 
 <p align="center">
-  <img src="./imagens/gitflow_fork.png" alt="Fluxo de trabalho e resolução de conflitos" width="100%">
+  <img src="./imagens/gitflow_fork.png" alt="Fluxo de trabalho e resolução de conflitos" width="80%">
 </p>
 
 ### Step 0.1: Criar o Fork do Repositório
