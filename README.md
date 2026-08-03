@@ -435,6 +435,17 @@ Abaixo está a tabela de equivalência com os principais comandos do Git e suas 
 
 ---
 
+## 🏆 Fixando com Imagens 
+
+Com base na tabela de comandos anterior do Git Cli você deve fazer um INFOGRÁFICO no Canvas.com ou outra ferramenta e ao final disponibilizar o link também em sua entrega. Coloque o link dentro de um arquivo com o nome linkInfografico.txt e salve na raiz da sua branch de seu repositorio que irá colcoar o link no classroom. 
+
+O que tem que ter o INFOGRÁFICO:
+1. para cada comando o significado resumido
+2. para cada comando um exemplo de uso
+3. Salve o seu infográfico em PDF e envie no classroom
+   
+
+
 ## 💼 Você na Entrevista de Emprego
 
 Simule uma entrevista técnica de desenvolvimento! Abaixo estão 5 questões baseadas nos comandos listados na **Revisão Dev**. Teste seus conhecimentos em cenários reais do mercado de trabalho:
@@ -525,6 +536,9 @@ Qual comando garante que seu código local receba essas atualizações da nuvem?
 </details>
 
 ---
+
+
+
 
 ## 🎉 Parabéns!
 
