@@ -470,8 +470,8 @@ Qual comando do Git você deve utilizar para enviar suas alterações locais par
 
 Qual é o comando mais direto e eficiente para realizar essa ação em um único passo?
 
-- [X] A) `git branch feature/validacao-cpf`
-- [ ] B) `git checkout -b feature/validacao-cpf`
+- [ ] A) `git branch feature/validacao-cpf`
+- [X] B) `git checkout -b feature/validacao-cpf`
 - [ ] C) `git switch --create-only feature/validacao-cpf`
 - [ ] D) `git merge feature/validacao-cpf`
 - [ ] E) `git add -b feature/validacao-cpf`
