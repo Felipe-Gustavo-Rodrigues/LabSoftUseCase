@@ -1,33 +1,26 @@
 ﻿@model AppTask.Models.CentralDeCusto
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Nova Central De Custo";
 }
 
-<h1>Create</h1>
+<h1 class="mb-4">Cadastrar Nova Central De Custo</h1>
 
-<h4>CentralDeCusto</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="NomeCentral" class="control-label"></label>
-                <input asp-for="NomeCentral" class="form-control" />
-                <span asp-validation-for="NomeCentral" class="text-danger"></span>
+    <div class="col-md-6">
+        <form action="/CentralDeCustoes/Create" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label for="NomeCentral" class="form-label font-weight-bold">NomeCentral</label>
+                <input type="text" id="NomeCentral" name="NomeCentral" class="form-control" placeholder="Digite a nome da Central De Custo" required />
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+
+            <div class="mb-3 d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Salvar Central De Custo</button>
+                <a href="/CentralDeCustoes/Index" class="btn btn-secondary">Voltar para a Lista</a>
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
